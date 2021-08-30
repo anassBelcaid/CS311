@@ -1,0 +1,48 @@
+* C++ GUI programming with QT
+** TODO Part 1 C++ Advanced
+*** TODO Inheritance
+    - [ ] Inheritance example
+    - [ ] Inheritance diagram
+    - [ ] Constructor 
+    - [ ] Special keys
+    - [ ] Inheritance is the root of all evil ( http://www.mycpu.org/modern-inheritance/) 
+*** TODO Polymorphism and Abstraction
+    - [ ] Example why it cannot work using simple variable
+    - [ ] Polymorphism using pointer and **virtual**
+    - [ ] The virtual keyword
+    - [ ] Abstract classes
+
+*** TODO Const Correctness and Templates
+    - [ ] The const mofidier.
+    - [ ] Const pointers.
+    - [ ] Const functions.
+    - [ ] Templates functions.
+** TODO Part 2GUI Interface with QT
+- https://zetcode.com/gui/qt5/
+*** Introduction
+    - [ ] qmake project
+    - [ ] Application with buttons
+    - [ ] Signals and slots 
+    - [ ] Layouts prime
+*** Dialogs
+    - [ ] Set of predefined dialogs
+    - [ ] Sub classing Qdialog.
+    - [ ] Rapid dialog with Designer.
+*** Suvery on widgets
+    - [ ] Set of widgets.
+    - [ ] Play with signals and values.
+    - [ ] Chrono consist of sportif chronometer with a cache.
+     
+*** Qt Application
+    - [ ] Actions
+    - [ ] Resources
+    - [ ] Menus
+
+*** Painting
+
+** TODO Part 3 Data Structures Warm up
+*** TODO Queues
+*** TODO Stacks
+*** TODO Heaps
+*** TODO Disjoint Set (Union Find)
+*** TODO Binary trees
