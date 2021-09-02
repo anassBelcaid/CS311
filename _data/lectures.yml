@@ -3,7 +3,7 @@
   title: > 
     <strong>Course Overview</strong>
   slides: 
-  notes:
+  notes: https://anassbelcaid.github.io/CS311/overview/
   readings:
     - <a href="https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1898935-initiez-vous-a-qt"> Open classroom notes</a>
     - <a href="https://doc.qt.io/qt-5/gettingstarted.html"> Getting started with Qt </a>
