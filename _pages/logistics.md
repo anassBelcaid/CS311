@@ -18,7 +18,6 @@ title: Logistics
 - [G] [Mark Gregoire, Professional C++](https://www.amazon.fr/Professional-C-Marc-Gregoire/dp/1119421306) 
 
 
-- [Text](https://www.url.com)
 Chapters from these two texts, as well as relevant resources, will be referenced alongside each lecture, under the [Lectures]({{ "/lectures" | relative_url }}) section. 
 
 We strongly recommend that you read these as the semester progresses, to help you understand the concepts and algorithms taught in class (note that the material of the class is a simplifid version of the book). 
