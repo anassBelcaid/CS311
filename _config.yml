@@ -75,6 +75,7 @@ plugins:
     - jekyll-email-protect
     - jekyll-paginate
     - jemoji
+    - jekyll-diagrams
 
 # -----------------------------------------------------------------------------
 # Other settings
@@ -85,3 +86,5 @@ anchorjs_version: "3.2.2"
 latexjs_version: "0.11.1"
 
 theme: jekyll-theme-slate
+
+# configuration for toc

@@ -1,10 +1,10 @@
-- date: M 09/08
+- date: M 10/04
   lecturer: 
   title: > 
     <strong>Course Overview</strong>
   slides: 
   # notes: https://anassbelcaid.github.io/CS311/overview/
-  notes : http://127.0.0.1:4000/overview/
+  notes : https://anassbelcaid.github.io/CS311/overview/
   readings:
     - <a href="https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1898935-initiez-vous-a-qt"> Open classroom notes</a>
     - <a href="https://doc.qt.io/qt-5/gettingstarted.html"> Getting started with Qt </a>
@@ -17,23 +17,24 @@
   homework:
     <a href="http://127.0.0.1:4000/feetWet/"> Feet Wet </a>
 
-# - date: M 09/13
-#   lecturer:
-#   title: >
-#     <strong>C++ Inheritance </strong>
-#   slides: 
-#   video: 
-#   notes:
-#   readings:
-#     - Bagnell. <a href="http://www.ri.cmu.edu/publication_view.html?pub_id=7891" target="_blank">An Invitation to Imitation</a>
-#     - Bojarski et al. <a href="https://arxiv.org/abs/1604.07316" target="_blank">End to End Learning for Self-Driving Cars</a>
-#     - Bansal et al. <a href="https://arxiv.org/abs/1812.03079" target="_blank">ChauffeurNet&#58; Learning to Drive by Imitating the Best and Synthesizing the Worst</a>
-#     - De Haan et al. <a href="https://arxiv.org/abs/1905.11979" target="_blank">Causal Confusion in Imitation Learning</a>
-#   topics:
-#     - Inheritance
-#     - Special keys
-#     - Drawbacks
-#   homework:
+- date: M 10/11
+  lecturer:
+  title: >
+    <strong>C++ Inheritance </strong>
+  slides: 
+  video: 
+  # notes : http://127.0.0.1:4000/inheritance/
+  notes : https://anassbelcaid.github.io/CS311/inheritance/
+  readings:
+    # - Bagnell. <a href="http://www.ri.cmu.edu/publication_view.html?pub_id=7891" target="_blank">An Invitation to Imitation</a>
+    # - Bojarski et al. <a href="https://arxiv.org/abs/1604.07316" target="_blank">End to End Learning for Self-Driving Cars</a>
+    # - Bansal et al. <a href="https://arxiv.org/abs/1812.03079" target="_blank">ChauffeurNet&#58; Learning to Drive by Imitating the Best and Synthesizing the Worst</a>
+    # - De Haan et al. <a href="https://arxiv.org/abs/1905.11979" target="_blank">Causal Confusion in Imitation Learning</a>
+  topics:
+    - Inheritance
+    - Special keys
+    - Drawbacks
+  homework:
 
 
 

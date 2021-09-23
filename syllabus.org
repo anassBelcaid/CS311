@@ -1,10 +1,15 @@
 * C++ GUI programming with QT
 ** TODO Part 1 C++ Advanced
 *** TODO Inheritance
-    - [ ] Inheritance example
+    - [ ] Inheritance Definition with a diagram
     - [ ] Inheritance diagram
-    - [ ] Constructor 
-    - [ ] Special keys
+    - [ ] Employees example
+    - [ ] Single Inheritance
+      - [ ] Constructor rules
+      - [ ] Access control 
+    - [ ] Mulitple Inheritance
+    - [ ] Private Inheritance
+    - [ ] Constructor rules
     - [ ] Inheritance is the root of all evil ( http://www.mycpu.org/modern-inheritance/) 
 *** TODO Polymorphism and Abstraction
     - [ ] Example why it cannot work using simple variable
