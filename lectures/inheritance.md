@@ -21,7 +21,7 @@ permalink: /inheritance/
 on their attributes/behavior.
 
 <div class="center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture2/mammal_diagram.png" width="600">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture2/mammal_diagram.png" width="500">
   <div class="figcaption">
    A Class  UML diagram illustrating the notion of Inheritance.
   </div>
@@ -48,7 +48,7 @@ grpahical windows and applications. Here is a simple overview ot its principal
 component.
 
 <div class="center">
-  <img src=" {{ site.url }}{{ site.baseurl }}/assets/img/lecture2/qt_inheritance_diagram.jpg">
+  <img src=" {{ site.url }}{{ site.baseurl }}/assets/img/lecture2/qt_inheritance_diagram.png" width="600">
   <div class="figcaption">
   Inheritance  Class Diagram of the Qt library.
   </div>
@@ -188,12 +188,18 @@ class Derived : public BaseClass
 };
 ```
 
-{% blockdiag %}
-blockdiag {
-   A -> B -> C -> D;
-   A -> E -> F -> G;
-}
-{% endblockdiag %}
+The associated **UML** [class diagram](https://en.wikipedia.org/wiki/Class_diagram) use a single simple arrow pointing on the base class:
+
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture2/single_inheritance.png	">
+  <div class="figcaption">
+   Representation of Inheritance in the Uml diagram class.
+  </div>
+</div>
+
+
+
 
 ### Constructor Rules.
 

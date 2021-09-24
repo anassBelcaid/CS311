@@ -1,0 +1,32 @@
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+    node[font="Handlee"];
+    edge [ dir = back, color="orange"]
+
+  QObject [label="QObject"];
+  QThread [label = "QThread"];
+  QWidget [label = "QWidget"];
+  QabButton[label="QAbstractButton"];
+  QFrame [label="QFrame"];
+  QProgressBar[label="QProgressBar"];
+  QObject -> QThread , QWidget;
+  QWidget -> QabButton, QFrame, QProgressBar;
+  
+  
+ Qcheck[label="QCheckButton"];
+ QPush[label="QPushButton"];
+ QRadio [label="QRadioButton"];
+ QabButton -> Qcheck, QPush, QRadio;
+  
+ QScrollArea[label="QAbstractScrollArea"];
+ QLabel[label="QLabel"];
+ QFrame -> QScrollArea, QLabel;
+ 
+ QGraphic[label="QGraphicView"];
+ QTextEdit[label="QTextEdit"];
+ QScrollArea ->QGraphic, QTextEdit;
+
+}

@@ -1,0 +1,23 @@
+digraph{
+
+    node[font="Handlee", shape=record];
+    edge [ dir = back, color="orange"]
+
+    mammal [label="Mammal"];
+
+    Cat [ label="Cat"];
+    Dog [ label="Dog"];
+    Horse [label = "Horse"];
+    Elephant [label = "Elephant"];
+    German [label="German Sheppard", fontsize=10];
+    Labrator [label="Labrator Retreiver", fontsize=10];
+    Clyde [label="Clydesdale", fontsize=10];
+    Palomino [label="Palomino", fontsize=10];
+
+
+    mammal -> Cat, Dog, Horse, Elephant;
+
+    Dog -> German, Labrator;
+    Horse -> Clyde, Palomino;
+
+}
