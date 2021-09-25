@@ -1,0 +1,26 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+ 
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+   node[font="Handlee"];
+  edge [ dir = back, color="orange"]
+
+ istream [ label = "istream"];
+ ostream [label = "ostream"];
+ 
+ 
+ //istring
+ istringstream [label = "istringstream"];
+ ifstream [label = "ifstream"];
+ iostream [ label ="iostream"];
+ ofstream [label ="ofstream"];
+ ostringstream[label = "ostringstream"];
+ fstream [label ="fstream"];
+ 
+ istream -> istringstream, ifstream, iostream;
+ ostream -> iostream, ofstream, ostringstream;
+ iostream -> fstream;
+}

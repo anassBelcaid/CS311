@@ -1,0 +1,19 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+ 
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+   node[font="Handlee"];
+  edge [ dir = back, color="orange"]
+
+  employee[label="Employee"];
+  Programmer[label="Programmer"];
+  Lawyer[label="Lawyer"];
+  Secretary[label="Secretary"];
+  LawSec[label="LawSecretary"];
+  
+  employee -> Programmer, Lawyer, Secretary;
+  Secretary ->LawSec;
+}

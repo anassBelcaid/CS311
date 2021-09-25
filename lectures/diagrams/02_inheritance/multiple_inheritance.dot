@@ -1,0 +1,18 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+  dir = LR;
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+   node[font="Handlee"];
+  edge [ dir = back, color="orange"]
+
+  classA[label="{classA|a:int|getA():int}", fontsize=8];
+  classB[label="{classB|b:int|getB():int}", fontsize=8];
+  
+  classC[label="{classC||diff():int}", fontsize=8];
+  
+  classA -> classC;
+  classB -> classC;
+}
