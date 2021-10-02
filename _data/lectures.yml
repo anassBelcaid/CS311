@@ -23,9 +23,14 @@
     <strong>C++ Inheritance </strong>
   slides: 
   video: 
-  # notes : http://127.0.0.1:4000/inheritance/
-  notes : https://anassbelcaid.github.io/CS311/inheritance/
+  notes : http://127.0.0.1:4000/inheritance/
+  # notes : https://anassbelcaid.github.io/CS311/inheritance/
   readings:
+    - <a href="https://en.wikipedia.org/wiki/C%2B%2B11#Object_construction_improvement"> C++ Inheritance Spec</a>
+    - <a href="https://www.tutorialspoint.com/uml/uml_class_diagram.htm"> Class Diagram Tutorial</a>
+    - <a href="https://www.learncpp.com/cpp-tutorial/constructors-and-initialization-of-derived-classes"> More on Constructors </a>
+    - <a href="https://data-flair.training/blogs/inheritance-in-cpp"> Types of Inheritance </a>
+
     # - Bagnell. <a href="http://www.ri.cmu.edu/publication_view.html?pub_id=7891" target="_blank">An Invitation to Imitation</a>
     # - Bojarski et al. <a href="https://arxiv.org/abs/1604.07316" target="_blank">End to End Learning for Self-Driving Cars</a>
     # - Bansal et al. <a href="https://arxiv.org/abs/1812.03079" target="_blank">ChauffeurNet&#58; Learning to Drive by Imitating the Best and Synthesizing the Worst</a>
@@ -35,7 +40,7 @@
     - Special keys
     - Drawbacks
   homework:
-
+    <a href="http://127.0.0.1:4000/hslaimages/"> HSLA Images </a>
 
 
 # - date: M 09/20

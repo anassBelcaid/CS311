@@ -75,7 +75,6 @@ plugins:
     - jekyll-email-protect
     - jekyll-paginate
     - jemoji
-    - jekyll-diagrams
 
 # -----------------------------------------------------------------------------
 # Other settings

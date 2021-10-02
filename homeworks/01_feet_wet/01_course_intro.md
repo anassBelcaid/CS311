@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Gettting your feet wet with Qt 
+title:  Gettting your feet wet with Qt
 description:   Qt Installation and contrainer manipulation.
 date:  2021-10-05
 permalink: /feetWet/

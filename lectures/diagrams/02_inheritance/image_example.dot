@@ -1,0 +1,27 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+ 
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+  node[font="Handlee", fontsize= 8];
+  edge [ dir = back, color="orange"]
+  
+  Pixel [ label="{HSLAPixel|h: double\n l:double\n s:double|}"];
+  PNG [ label="{PNG||}"]
+  Image [ label
+  ="{Image||Image(string)\nlighten(double)\nsaturate(double)\nrotateColor(double)}"];
+
+  GrayScale[label = "{GrayScale||}"];
+  Spotlight[label = "{Spotlight|xCenter : int\nyCenter : int|Spotlight(file, x,
+  y)}"];
+  EUMFI [ label= "{Illiny|color1:int\ncolor2:int|}" ];
+
+
+
+  
+  PNG -> Image;
+  Image -> GrayScale, Spotlight, EUMFI;
+  
+}
