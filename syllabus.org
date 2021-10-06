@@ -1,21 +1,21 @@
 * C++ GUI programming with QT
 ** TODO Part 1 C++ Advanced
 *** TODO Inheritance
-    - [ ] Inheritance Definition with a diagram
-    - [ ] Inheritance diagram
-    - [ ] Employees example
-    - [ ] Single Inheritance
-      - [ ] Constructor rules
-      - [ ] Access control 
-    - [ ] Mulitple Inheritance
-    - [ ] Private Inheritance
-    - [ ] Constructor rules
-    - [ ] Inheritance is the root of all evil ( http://www.mycpu.org/modern-inheritance/) 
+    - [X] Inheritance Definition with a diagram
+    - [X] Inheritance diagram
+    - [X] Employees example
+    - [X] Single Inheritance
+      - [X] Constructor rules
+      - [X] Access control
+    - [X] Mulitple Inheritance
+    - [X] Private Inheritance
+    - [X] Constructor rules
 *** TODO Polymorphism and Abstraction
     - [ ] Example why it cannot work using simple variable
     - [ ] Polymorphism using pointer and **virtual**
     - [ ] The virtual keyword
     - [ ] Abstract classes
+    - [ ] Project: shapes with virutal functions
 
 *** TODO Const Correctness and Templates
     - [ ] The const mofidier.
