@@ -1,0 +1,18 @@
+# http://www.graphviz.org/content/cluster
+digraph G {
+ 
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+  node[font="Handlee"];
+  edge [ dir = back, color="orange"]
+
+  
+  shape[label="{Shape|draw()\nerase()}"];
+  circle[label="{Circle|draw()\nerase()}"];
+  triangle[label="{Triangle|draw()\nerase()}"];
+  square[label="{Square|draw()\nerase()}"];
+  
+  shape -> circle, triangle, square 
+  
+}

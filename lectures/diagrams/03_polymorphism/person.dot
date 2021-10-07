@@ -1,0 +1,15 @@
+
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+ 
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+   node[font="Handlee", fontsize=8];
+  edge [ dir = back, color="orange"]
+
+  Person [label="{Person| name : string \nid : int \naddress : string|displayInfo}"]
+  Student [label="{Student| major:string\n num_cours:int|}"]
+  Person -> Student;
+}
