@@ -11,6 +11,8 @@
     - [X] Private Inheritance
     - [X] Constructor rules
 *** TODO Polymorphism and Abstraction
+    - [ ] Definition ( good stanford pdf)
+    - [ ]  
     - [ ] Example why it cannot work using simple variable
     - [ ] Polymorphism using pointer and **virtual**
     - [ ] The virtual keyword

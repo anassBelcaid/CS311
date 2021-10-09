@@ -26,6 +26,7 @@
   notes : http://127.0.0.1:4000/inheritance/
   # notes : https://anassbelcaid.github.io/CS311/inheritance/
   readings:
+    - [G] Chapter 10.
     - <a href="https://en.wikipedia.org/wiki/C%2B%2B11#Object_construction_improvement"> C++ Inheritance Spec</a>
     - <a href="https://www.tutorialspoint.com/uml/uml_class_diagram.htm"> Class Diagram Tutorial</a>
     - <a href="https://www.learncpp.com/cpp-tutorial/constructors-and-initialization-of-derived-classes"> More on Constructors </a>
@@ -43,21 +44,23 @@
     <a href="http://127.0.0.1:4000/hslaimages/"> HSLA Images </a>
 
 
-# - date: M 09/20
-#   lecturer:
-#   title: >
-#     <strong>Polymorphism and Abstraction</strong>
-#   slides: 
-#   video: 
-#   notes:
-#   readings:
-#     - site developer
-#     - seeek others
-#   topics:
-#     - Pointers
-#     - virtual methods
-#     - Abstraction
-#   homework:
+- date: M 10/18
+  lecturer:
+  title: >
+    <strong>Polymorphism and Abstraction</strong>
+  slides: 
+  video: 
+  notes: http://127.0.0.1:4000/polymorphism/
+  readings:
+    - [G] Chapter 10.
+    - <a href="https://www.cplusplus.com/doc/oldtutorial/typecasting/"> Type Casting </a>
+    - <a href="https://en.wikibooks.org/wiki/C%2B%2B_Programming/Classes/Abstract_Classes"> Abstract classes </a>
+    - <a href="https://www.udacity.com/blog/2021/07/understanding-polymorphism-in-cpp.html"> Polymorphism tutorial </a>
+  topics:
+    - Pointers
+    - virtual methods
+    - Abstraction
+  homework:
 
 # - date: F 09/27
 #   lecturer:

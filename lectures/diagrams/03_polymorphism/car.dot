@@ -1,0 +1,20 @@
+
+# http://www.graphviz.org/content/cluster
+
+# http://www.graphviz.org/content/cluster
+digraph G {
+ 
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+  node[font="Handlee", fontsize=8];
+  edge [ dir = back, color="orange"]
+
+  
+  Car[label="{Car|accelerate()\nbreak()}"];
+  Mecanical[label="{Mecanical|accelerate()\nbreak()}"];
+  Electrical[label="{Electrical|accelerate()\nbreak()}"];
+  
+  Car -> Mecanical, Electrical;
+   
+}
