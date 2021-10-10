@@ -23,8 +23,8 @@
     <strong>C++ Inheritance </strong>
   slides: 
   video: 
-  notes : http://127.0.0.1:4000/inheritance/
-  # notes : https://anassbelcaid.github.io/CS311/inheritance/
+  # notes : http://127.0.0.1:4000/inheritance/
+  notes : https://anassbelcaid.github.io/CS311/inheritance/
   readings:
     - G Chapter 10.
     - <a href="https://en.wikipedia.org/wiki/C%2B%2B11#Object_construction_improvement"> C++ Inheritance Spec</a>
@@ -41,7 +41,7 @@
     - Special keys
     - Drawbacks
   homework:
-    <a href="http://127.0.0.1:4000/hslaimages/"> HSLA Images </a>
+    <a href="https://anassbelcaid.github.io/CS311/hslaimages/"> HSLA Images </a>
 
 
 - date: M 10/18
@@ -61,6 +61,7 @@
     - virtual methods
     - Abstraction
   homework:
+    - <a href="http://127.0.0.1:4000/shapes/"> Drawing shapes </a>
 
 # - date: F 09/27
 #   lecturer:

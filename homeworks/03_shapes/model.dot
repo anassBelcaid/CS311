@@ -1,0 +1,28 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+ 
+  node [fontname = "Handlee", shape=record];
+  edge [fontname = "Handlee"];
+
+   node[font="Handlee"];
+  edge [color="orange"]
+
+  GPoint[label="{GPoint|x:double\ny:double|}", fontsize=10, rank=0]
+  GWindow[label="{{GWindow}||}", rank=0]
+  Shape[label="{Shape|center : GPoint| area():double\n draw(GWindow):void}", fontsize=10, rank=1]
+  
+  //inherited shape
+  Ellipse[label="{Ellipse|radius_x: double\n radius_x: double|}", fontsize=10]
+  Triangle[label="{Triangle|width:double|}", rank=2, fontsize=10]
+  Rectangle[label="{Rectangle|width: double\n height: double|}", fontsize=10]
+  //edges
+  GPoint -> Shape[arrowhead=diamond];
+  GWindow -> Shape[arrowhead=none];
+  
+  
+  //edges
+  Shape -> Ellipse [dir=back];
+  Shape -> Triangle[dir=back];
+  Shape -> Rectangle[dir=back];
+}
