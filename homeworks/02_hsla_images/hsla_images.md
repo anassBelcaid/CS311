@@ -90,7 +90,7 @@ space:
 
 ## The PNG class
 
-In the <a href="{{ site.url }}{{ site.baseurl }}/assets/code/lecture2/multiple_inheritance.zip">image_manip.zip</a>, you are
+In the <a href="{{ site.url }}{{ site.baseurl }}/assets/code/lecture2/image_manip.zip">image_manip.zip</a>, you are
 given a project which contain a class called `PNG` that implement basic images
 maniplation like:
 

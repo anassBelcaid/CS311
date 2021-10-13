@@ -1,6 +1,6 @@
 * C++ GUI programming with QT
 ** TODO Part 1 C++ Advanced
-*** TODO Inheritance
+*** DONE Inheritance
     - [X] Inheritance Definition with a diagram
     - [X] Inheritance diagram
     - [X] Employees example
@@ -10,14 +10,13 @@
     - [X] Mulitple Inheritance
     - [X] Private Inheritance
     - [X] Constructor rules
-*** TODO Polymorphism and Abstraction
-    - [ ] Definition ( good stanford pdf)
-    - [ ]  
-    - [ ] Example why it cannot work using simple variable
-    - [ ] Polymorphism using pointer and **virtual**
-    - [ ] The virtual keyword
-    - [ ] Abstract classes
-    - [ ] Project: shapes with virutal functions
+*** DONE Polymorphism and Abstraction
+    - [X] Definition ( good stanford pdf)
+    - [X] Example why it cannot work using simple variable
+    - [X] Polymorphism using pointer and **virtual**
+    - [X] The virtual keyword
+    - [X] Abstract classes
+- [X] Project: shapes with virutal functions
 
 *** TODO Const Correctness and Templates
     - [ ] The const mofidier.
