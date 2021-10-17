@@ -1,0 +1,7 @@
+/* Custom CSS for pages */
+.figcenter {
+  text-align: center;
+}
+.fig img {
+  max-width: 98%;
+}

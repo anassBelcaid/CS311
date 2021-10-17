@@ -63,24 +63,30 @@
   homework:
     - <a href="http://127.0.0.1:4000/shapes/"> Drawing shapes </a>
 
-# - date: F 09/27
-#   lecturer:
-#   title: >
-#     <strong> Template and const correctness</strong>
-#   slides: 
-#   video: 
-#   notes:
-#   readings:
-#     # - <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target=  "_blank">Amazon EC2 Basics</a>
-#     - <a href="http://gym.openai.com/docs/" target=  "_blank">OpenAI Gym Documentation</a>
-#     - <a href="https://www.tensorflow.org/guide/low_level_intro" target=  "_blank">The TensorFlow Low Level API</a>
-#     - <a href="https://www.tensorflow.org/guide/keras" target=  "_blank">The TensorFlow High Level (Keras) API</a>
-#   topics:
-#     - const modifier
-#     - const functions
-#     - templates
+- date: F 10/25
+  lecturer:
+  title: >
+    <strong> Qt Signals and Layouts</strong>
+  slides: 
+  video: 
+  notes: http://127.0.0.1:4000/signals/ 
+  readings:
+    # - <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target=  "_blank">Amazon EC2 Basics</a>
+    # - <a href="http://gym.openai.com/docs/" target=  "_blank">OpenAI Gym Documentation</a>
+    # - <a href="https://www.tensorflow.org/guide/low_level_intro" target=  "_blank">The TensorFlow Low Level API</a>
+    # - <a href="https://www.tensorflow.org/guide/keras" target=  "_blank">The TensorFlow High Level (Keras) API</a>
+    - <b>(BS)  chapter 1</b>
+    - <a href="https://wiki.qt.io/Qt_for_Beginners"> Qt for beginner </a>
+    - <a href="https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1900446-positionnez-vos-widgets-avec-les-layouts"> Open Classroom, layout </a>
+    - <a href="https://zetcode.com/gui/qt5/layoutmanagement/"> ZetCode layouts </a>
 
-#   howewrok: <span class="event">HW1 out</span>
+  topics:
+    - Qmake project
+    - Basic Widgets
+    - Layouts
+
+  howewrok: 
+    # <span class="event">HW1 out</span>
 
 
 
