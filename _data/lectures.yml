@@ -84,10 +84,8 @@
     - Qmake project
     - Basic Widgets
     - Layouts
-
-  howewrok: 
-    # <span class="event">HW1 out</span>
-
+  homework:
+    - <a href="http://127.0.0.1:4000/forms/"> Fun with Layouts </a>
 
 
 # - date: M 10/04
