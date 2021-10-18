@@ -50,7 +50,7 @@
     <strong>Polymorphism and Abstraction</strong>
   slides: 
   video: 
-  notes: http://127.0.0.1:4000/polymorphism/
+  notes: https://anassbelcaid.github.io/CS311/polymorphism/
   readings:
     - G Chapter 10.
     - <a href="https://www.cplusplus.com/doc/oldtutorial/typecasting/"> Type Casting </a>
