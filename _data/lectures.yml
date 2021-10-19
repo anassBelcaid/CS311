@@ -61,15 +61,15 @@
     - virtual methods
     - Abstraction
   homework:
-    - <a href="http://127.0.0.1:4000/shapes/"> Drawing shapes </a>
+    - <a href="https://anassbelcaid.github.io/CS311/shapes/"> Drawing shapes </a>
 
-- date: F 10/25
+- date: M 10/25
   lecturer:
   title: >
-    <strong> Qt Signals and Layouts</strong>
+    <strong> Widgets and  Layouts</strong>
   slides: 
   video: 
-  notes: http://127.0.0.1:4000/signals/ 
+  notes: http://127.0.0.1:4000/layouts/ 
   readings:
     # - <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target=  "_blank">Amazon EC2 Basics</a>
     # - <a href="http://gym.openai.com/docs/" target=  "_blank">OpenAI Gym Documentation</a>
@@ -88,22 +88,27 @@
     - <a href="http://127.0.0.1:4000/forms/"> Fun with Layouts </a>
 
 
-# - date: M 10/04
-#   lecturer:
-#   title: >
-#     <strong> Your first Gui with Qt</strong>
-#   slides: 
-#   video: 
-#   notes:
-#   readings:
-#     - Goodfellow et al. <a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf" target="_blank">Generative Adversarial Networks</a>
-#     - Ho et al. <a href="https://arxiv.org/abs/1606.03476" target="_blank">Generative Adversarial Imitation Learning</a>
-#   topics: 
-#     - Qmake project
-#     - Signals and Slots
-#     - Layouts
-#   homework:
-#     Keyboard speed
+- date: M 11/01
+  lecturer:
+  title: >
+    <strong> Signals and Slots</strong>
+  slides: 
+  video: 
+  notes: http://127.0.0.1:4000/signals/
+  readings:
+    - <b>(BS) Chapter 2-2</b>
+    - <a href="https://doc.qt.io/qt-5/signalsandslots.html"> Official documentation </a>
+    - <a href="https://zetcode.com/gui/qt5/eventsandsignals/"> ZetCode Tutorial </a>
+    - <a href="http://guillaume.belz.free.fr/doku.php?id=les_signaux_et_slots_dans_qt5"> French Tutorial </a>
+    # - Goodfellow et al. <a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf" target="_blank">Generative Adversarial Networks</a>
+    # - Ho et al. <a href="https://arxiv.org/abs/1606.03476" target="_blank">Generative Adversarial Imitation Learning</a>
+  topics: 
+    - Signals
+    - Click events.
+    - Mouse Events.
+    - Timer events.
+  homework:
+    Keyboard speed
 
 # - date: W 10/11
 #   lecturer:

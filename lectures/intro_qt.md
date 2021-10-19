@@ -7,7 +7,7 @@ date:  2021/10/25
 lecturers:
   - name:  Anass Belcaid
 
-permalink: /signals/
+permalink: /layouts/
 ---
 
 The goal of this chapter is combine basic **C++** with some basic **QT**
