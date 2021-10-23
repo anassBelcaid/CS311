@@ -178,6 +178,151 @@ href="{{ site.url }}{{ site.baseurl }}/assets/code/lecture5/dice.zip"> dice.zip 
 
 
 
+# Special Signals (events)
+
+## Key Press
+
+Another cool aspect of `signals/slots` is that you could program them also in
+the spirit of **listener/event** mechanism like in `Java`. Fist, we will
+illustrate this concept by writing an application to respond to a `key press`
+from the keyboard.
+
+
+We could write this concept using `signals/slots` but we will do it by
+**overriding** an inherited function:
+
+```cpp
+void keyPressEvent( QKeyEvent *e)
+```
+
+This `slot` will be trigger automatically each time we click an keyboard key.
+The information of the key will be store in the class [QKeyEvent](https://doc.qt.io/qt-5.15/qkeyevent.html).
+
+Let's show the mechanism by writing a simple application to **display** the keys
+entered by the user. The application will automatically close when we enter the
+**escape** key.
+
+
+The starter code for is in <a href="{{ site.url }}{{ site.baseurl }}/assets/code/lecture5/pressEvent.zip"> pressEvent.zip </a>
+
+
+First we will write a custom widget that inherit from the `QWidget` class:
+
+```cpp
+class SpecialEvent : public QWidget
+{
+public:
+    SpecialEvent();
+    virtual ~SpecialEvent();
+ private:
+    void createWidgets();
+    void placeWidgets();
+    void makeConnexions();
+
+private:
+    //members
+
+    QLabel *mainLabel;
+    QHBoxLayout *mainLayout;
+protected:
+    void keyPressEvent(QKeyEvent *e);
+};
+```
+
+The main point is this class, is the **protected function** that inform Qt that
+we will override the `keyPressEvent` for our widget.
+
+
+Here is the implementation:
+
+```cpp
+
+
+SpecialEvent::SpecialEvent():QWidget()
+{
+    createWidgets();
+    placeWidgets();
+    makeConnexions();
+}
+
+SpecialEvent::~SpecialEvent()
+{
+    delete mainLabel;
+    delete mainLayout;
+}
+
+void SpecialEvent::createWidgets()
+{
+    // Create the label
+    mainLabel = new QLabel("K", this);
+    mainLabel->setFont(QFont("monospace",50));
+
+
+    //Create the layout
+    mainLayout = new QHBoxLayout();
+}
+
+void SpecialEvent::placeWidgets()
+{
+
+    mainLayout->addWidget(mainLabel);
+    setLayout(mainLayout);
+}
+
+void SpecialEvent::makeConnexions()
+{
+
+}
+void SpecialEvent::keyPressEvent(QKeyEvent *e)
+{
+
+    if (e->key() == Qt::Key_Escape)
+        qApp->exit();
+    else
+        mainLabel->setText(e->text());
+}
+```
+
+The interesting part is the `keyPressEvent` where we:
+
+- Compare the `e->key()` to static key `Qt::Key_Escape`
+- If this key is entered we quit the application.
+- Otherwise we will change the label of the label the text of the key.
+        `mainLabel->setText(e->text())`
+
+
+
+
+## Move event
+
+Similar to the `keyPressEvent`, we can also listen to any `mouse mouvement`
+following the same syntax.
+
+For example, suppose we want to change the title of the our **keyPress**
+application to show the current position of the window. We need to override the
+[QMoveEvent](https://doc.qt.io/qt-5/qmoveevent.html) using the following syntax:
+
+```cpp
+void moveEvent(QMoveEvent *event)
+```
+
+Here is the implementation of this function, using the information stored in the
+`event`.
+
+
+```cpp
+//getting the x position
+auto x = e->pos().x();
+
+// getting the y position
+auto y = e->pos().y();
+
+setWindowTitle(QString("Pos (%0, %1)").arg(x).arg(y));
+
+```
+## Timer
+
+
 
 
 
