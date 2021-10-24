@@ -69,7 +69,7 @@
     <strong> Widgets and  Layouts</strong>
   slides: 
   video: 
-  notes: http://127.0.0.1:4000/layouts/ 
+  notes : https://anassbelcaid.github.io/CS311/layouts/
   readings:
     # - <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target=  "_blank">Amazon EC2 Basics</a>
     # - <a href="http://gym.openai.com/docs/" target=  "_blank">OpenAI Gym Documentation</a>
@@ -85,7 +85,7 @@
     - Basic Widgets
     - Layouts
   homework:
-    - <a href="http://127.0.0.1:4000/forms/"> Fun with Layouts </a>
+    - <a href="https://anassbelcaid.github.io/CS311/forms/"> Fun with Layouts </a>
 
 
 - date: M 11/01

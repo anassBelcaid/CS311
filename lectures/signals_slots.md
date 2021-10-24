@@ -322,6 +322,82 @@ setWindowTitle(QString("Pos (%0, %1)").arg(x).arg(y));
 ```
 ## Timer
 
+Another example of pref dined events is a [TimerEvent](https://doc.qt.io/archives/qt-4.8/qtimerevent.html). This event is used to implement repetitive tasks that automatically triggered periodically. A classical example is a **clock** showing the current time:
+
+
+Let's change our simple application to display the current time and change it
+each second.
+
+
+First we will add `QLabel` to  our private set of widgets to represent current time:
+
+
+```cpp
+QLabel * timeLabel;
+```
+
+
+We need to create this label in the `createWidgets` section:
+
+```cpp
+
+//Getting the current time
+QTime current = QTime::currentTime();
+
+//Creating the label with the curren time
+timeLabel = new QLabel(current.toString(), this);
+
+//changint the font
+timeLabel->setFont(QFont("times", 14));
+```
+
+
+Now, we will add it to our **mainLayout** in the `placeWidgets` function:
+
+```cpp
+//Add a spacer 
+mainLayout->addSpacer(new QSpacer(40, QSizePolicy::expanding));
+mainLayout->addWidget(timeLabel);
+```
+
+
+Now for the essential part, in order to respond to a time event we need:
+
+1. **Override** the `timerEvent(QTimerEvent *)` function.
+2. **Register** a timer with a given time with `startTime(int)`
+
+
+For the **first part**, here is the code for the overidden function:
+
+```cpp
+void SpecialEvent::timerEvent(QTimerEvent *e)
+{
+    //Here we simply change the test of the label 
+    // by the current time
+    timeLabel->setText(QTime::currentTime().toString());
+}
+```
+
+
+For the **second part**, we add the following call the contructor:
+
+```cpp
+//Add a timer listener each 1000 miliscons (1 second)
+startTimer(1000);
+```
+
+
+At the end you have an application three events. Here is a snapshot for this
+application:
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture4/final_special_event.png">
+  <div class="figcaption">
+   An application that listen to (key, mouse, timer) events.
+  </div>
+</div>
+
+
 
 
 
