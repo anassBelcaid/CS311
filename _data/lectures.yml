@@ -110,21 +110,23 @@
   homework:
     - <a href="http://127.0.0.1:4000/calculator/"> Calculator </a>
 
-# - date: W 10/11
-#   lecturer:
-#   title: >
-#     <strong>Subclassing Qt Dialogs</strong>
-#   slides:  
-#   video: 
-#   notes:
-#   readings:
-#     - <a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S & B Textbook</a>, Ch3, Ch4
-#   topics:
-#     - Qdialogs
-#     - Custom Dialogs
-#     - Rapid Dialogs
-#   homework:
-#     Dynamic Dialogs
+- date: W 10/11
+  lecturer:
+  title: >
+    <strong> Rapid Dialog Design</strong>
+  slides:  
+  video: 
+  notes: http://127.0.0.1:4000/designer/
+  readings:
+    - <b> BS Ch2.3 - 2.5 </b>
+    - <a href="https://doc.qt.io/qt-5/qtdesigner-manual.html"> Qt Designer Manual </a>
+  topics:
+    - Qt Designer
+    - Qdialogs
+    - Custom Dialogs
+    - Rapid Dialogs
+  homework:
+    Dynamic Dialogs
 
 # - date: F 10/18
 #   lecturer:
