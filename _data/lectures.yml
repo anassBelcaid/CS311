@@ -94,7 +94,7 @@
     <strong> Signals and Slots</strong>
   slides: 
   video: 
-  notes: http://127.0.0.1:4000/signals/
+  notes: https://anassbelcaid.github.io/CS311/signals/
   readings:
     - <b>(BS) Chapter 2-2</b>
     - <a href="https://doc.qt.io/qt-5/signalsandslots.html"> Official documentation </a>
@@ -108,7 +108,7 @@
     - Mouse Events.
     - Timer events.
   homework:
-    - <a href="http://127.0.0.1:4000/calculator/"> Calculator </a>
+    - <a href="https://anassbelcaid.github.io/CS311/calculator/"> Calculator </a>
 
 - date: W 10/11
   lecturer:
