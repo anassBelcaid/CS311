@@ -116,7 +116,7 @@
     <strong> Rapid Dialog Design</strong>
   slides:  
   video: 
-  notes: http://127.0.0.1:4000/designer/
+  notes: https://anassbelcaid.github.io/CS311/designer/
   readings:
     - <b> BS Ch2.3 - 2.5 </b>
     - <a href="https://doc.qt.io/qt-5/qtdesigner-manual.html"> Qt Designer Manual </a>
@@ -126,9 +126,33 @@
     - Custom Dialogs
     - Rapid Dialogs
   homework:
-    - <a href="http://127.0.0.1:4000/rapidgui/"> Rapid Dialogs</a>
+    - <a href="https://anassbelcaid.github.io/CS311/rapidgui/"> Rapid Dialogs</a>
 
-# - date: F 10/18
+
+- date: M 11/15
+  lecturer:
+  title: >
+    <strong> Creating main windows</strong>
+  slides: 
+  video: 
+  notes: http://127.0.0.1:4000/mainWindow/
+  readings:
+    - <b> BS Chapter 3 </b>
+    - <a href="https://zetcode.com/gui/qt5/menusandtoolbars/"> ZetCode tutorial </a>
+    - <a href="https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1901168-configurez-la-fenetre-principale">
+      French Tutorial </a>
+  topics:
+    - QMainWindow
+    - Menus
+    - Actions
+    - Status Bar
+    - Dialogs
+
+  homework:
+    Spreadsheet
+
+
+# - date: F 11/15
 #   lecturer:
 #   title: >
 #     <strong>Qt Widgets</strong>
