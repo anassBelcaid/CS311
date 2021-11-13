@@ -78,7 +78,7 @@ choose the following steps:
     </div>
 
 5.  **Do not check** the form. as we will be creating a **Main Functional**
-    applicaiton.
+    application.
 6. Finish the creation by selecting all the **default** remaining options.
 
 
@@ -235,17 +235,282 @@ void SpreadSheet::createActions()
 }
 ```
 
-
-
 ### Menus
 
+Now we move on to **Menu**. [Menus](https://doc.qt.io/qt-5/qtwidgets-mainwindows-menus-example.html) is way to **group** actions. They could be as *pull down* menu in the menu bar or as a **standalone context** menu.
+
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture7/menus-example.png">
+  <div class="figcaption">
+  Example of pull down menu.
+  </div>
+</div>
+
+
+In **Qt**, a menu regroup a set of predefined actions. The general approach for
+creating these menus in **Qt** is to:: 
+
+1. Declare the menus in the header file
+
+    ```cpp
+    #include <QMenu>         //dont forget to include the header
+    QMenu *menuName;
+    menuBar()->addMenu("name")
+    ```
+
+
+2. Once they're declared, we could add **actions** to them via the
+
+    ```cpp
+    menu->addAction(action*)
+    ```
+
+3. Sometimes, it is useful to **separate** actions, we use the simple functional
+
+```cpp
+menu->addSeperator()
+```
+
+
+4. Also in several situations a menu could have a sub menu. For example in the image   below, the menu **edit** contains the submenu **Format**. In order to achieve that, we use the method `addMenu("name")`. This  method return a pointer to the submenu that we could manipulate to add some actions.
+
+```
+auto submenu = menu->addMenu("Format");
+```
+
+
+For our application, we will create a function `createMenues` to take care of
+all the menus. Again, for simplicity the code was reduced to two menus. The
+full code will be shared in the notes.
+
+Here is the list of menus that we want to create:
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture7/set_menus.png">
+  <div class="figcaption">
+  The full functionality of our application.
+  </div>
+</div>
+
+
+
+```
+void MainWindow::createMenues()
+{
+    //Creating the menu
+    fileMenu = new QMenu("&File", this);
+    menuBar()->addMenu(fileMenu);
+
+    fileMenu->addAction(newfile);
+    fileMenu->addAction(openfile);
+    fileMenu->addSeparator();
+    fileMenu->addAction(quit);
+
+
+    //Edit menu
+    editMenu = new QMenu("&Edit");
+    menuBar()->addMenu(editMenu);
+
+
+    //Tools Menu
+    toolsMenu = new QMenu("&Tools");
+    menuBar()->addMenu(toolsMenu);
+    auto selectMenu = toolsMenu->addMenu("Select");
+    selectMenu->addAction(selectRow);
+    selectMenu->addAction(selectColumn);
+
+
+    //options
+    optionsMenu = new QMenu("&Options");
+    menuBar()->addMenu(optionsMenu);
+    optionsMenu->addAction(showGrid);
+
+    //help
+    helpMenu = new QMenu("&Help");
+    helpMenu->addAction(about);
+    menuBar()->addMenu(helpMenu);
+
+}
+```
+
+You should be able to see the following menus:
+
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture7/menu_spreadsheet.png">
+  <div class="figcaption">
+  Main Window with the predefined menus.
+  </div>
+</div>
 
 
 ### Toolbar
+a [toolbar](https://doc.qt.io/qt-5/qtoolbar.html) provides a movable panel that
+contains a set of controls. Those controls are generally shortcut for the most
+used actions.
+
+In order to add a toolbar for our application, we firstly add the `<QToolBar>`
+header. Then similar to a menu, we follow the same philosophy:
+
+1. Adding a toolbar by a given name:
+
+    ```cpp
+    auto *toolbar = addToolBar("name"); //
+    ```
+
+2. Adding a set of actions to the toolbar
+    ```cpp
+    toolbar->addAction(action*)
+    ```
+3. Also, we can add a **separator**:
+    ```cpp
+    toolbar->addSeparator();
+    ```
+
+For our application, we will add main toolbar with the following actions:
+
+```cpp
+void MainWindow::createToolBars()
+{
+    toolbar = addToolBar("tr(&Main toolbar)");
+    //adding the actions
+    toolbar->addAction(newfile);
+    toolbar->addAction(openfile);
+
+    toolbar->addSeparator(); // Adding a separator
+
+    toolbar->addAction(quit);
+}
+```
+
+Your application should look like this:
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture7/spreadsheet_toolbar.png">
+  <div class="figcaption">
+  Simple application with a toolbar.
+  </div>
+</div>
 
 
 ## Setting up the status bar
 
+The [QStatusBar](https://doc.qt.io/qt-5/qstatusbar.html) provides  a
+**horizontal** bar suitable for presenting status information. A status message
+could be one of the following categories:
 
-## Calling Dialogs
+- **Temporary**: briefly occupies most of the status bar.
+    This is used to explain tooltip text and entires.
+- **Normal**: occupies part of the status bar and may be `hidden` by temporary
+messages.
+    For example, the information of page number in word.
+- **Permanant**: is never `hidden`. Used for imporetant mode indications.
+
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture7/type_messages_statusbar.png">
+  <div class="figcaption">
+  Illustration of messages in the status bar.
+  </div>
+</div>
+
+
+
+In Qt each `QMainWindow` has a function `statusBar()` that return a **pointer**
+to the current status bar. We can use the status to either:
+
+- Add  **normal** widgets using the
+    ```cpp
+    addWidget(QWidget *w, int stretch)
+    ```
+
+- Add **permanent** widget using:
+    ```cpp
+    addPermanentWidget(QWidget *w, int stretch)
+    ```
+- Show temporary messages using:
+    ```cpp
+    showMessage(QString message, int duration)
+    ```
+
+
+For our application, we will create two permanent QLabels to hold the current
+cell and current **Formula**.
+
+We will add the following members to our header:
+
+```cpp
+QLabel *cellLocation;       //label on the status bar for the cell location
+QLabel *cellFormula;        // label for the current formula
+```
+
+
+
+And here is the function to fill those labels:
+
+
+```cpp 
+
+void creatStatusBar()
+{
+    //Creating the labels
+    cellLocation = new QLabel("A45");
+    cellFormula = new QLabel("B1 + C12");
+
+    //Adding the labels to the current status bar
+    statusBar()->addPermanentWidget(cellLocation);
+    statusBar()->addPermanentWidget(cellFormula);
+
+    //Just for use proposes: showing a temporary message
+    statusBar()->showMessage("Opening a new file", 2000);
+}
+```
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture7/status_bar_temp_message.png">
+  <div class="figcaption">
+  The main application with the status bar message.
+  </div>
+</div>
+
+
+## Central Widget
+
+For the final touch on our application. A QMainWindow has to define a **central
+Widget** that represent its core functionality. Using **polymorphism**, we
+could put any class that inherit from QWidget. Hence the content for this slot
+varies from a simple widget to a complicated one with a deep hierarchy.
+
+
+For our **SpreadSheet** case, we only need a simple widget which is [QTableWidget](https://doc.qt.io/qt-5.15/qtablewidget.html).
+
+
+Here the code to add in the constructor:
+
+```cpp
+//main widget
+spread = new QTableWidget;
+
+//Setting the number of rows and columns
+spread->setRowCount(20);
+spread->setColumnCount(6);
+
+//Setting the spread as a central widget of our application
+setCentralWidget(spread);
+```
+
+
+Congratulation you have now a graphically complete application (without
+functionality). That should be fixed in the next lecture where we will connect
+each action to a given dialog.
+
+## Wrap up
+
+In the lecture, we presented the essence of an application in **QT**. We show
+that in order to create such an application, we need to inherit from the
+`QMainWindow` class. Once it is created we need to need to define its
+**actions**. Those actions could be grouped either in a **menu** or in a
+**toolbar** for quick access. Finally we showed how to present temporary
+messages about the state of the application in the `statusbar`.
 
