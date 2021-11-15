@@ -135,7 +135,7 @@
     <strong> Creating main windows</strong>
   slides: 
   video: 
-  notes: http://127.0.0.1:4000/mainWindow/
+  notes: https://anassbelcaid.github.io/CS311/mainWindow/
   readings:
     - <b> BS Chapter 3 </b>
     - <a href="https://zetcode.com/gui/qt5/menusandtoolbars/"> ZetCode tutorial </a>
@@ -149,7 +149,7 @@
     - Dialogs
 
   homework:
-    Spreadsheet
+    - <a href="http://127.0.0.1:4000/spreadsheet/" > SpreadSheet </a>
 
 
 # - date: F 11/15
