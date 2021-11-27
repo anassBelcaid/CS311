@@ -19,9 +19,10 @@ You should write a report with **two parts**
 
 
 > The due date for the first part is Sunday 06/11/2021  at 20:00
-> The due date for the second part is Sunday 13/11/2021  at 20:00
+
+> The due date for the second part is Sunday 20/11/2021  at 20:00
 
 
->> Happy coding!! 
+> Happy coding!! 
 
 

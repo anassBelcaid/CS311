@@ -151,20 +151,26 @@
   homework:
     - <a href="https://anassbelcaid.github.io/CS311/spreadsheet/"> SpreadSheet</a>
 
-# - date: F 11/15
-#   lecturer:
-#   title: >
-#     <strong>Qt Widgets</strong>
-#   video: 
-#   notes:
-#   readings:
-#     - Doersch <a href="https://arxiv.org/abs/1606.05908" target="_blank">Tutorial on Variational Autoencoders</a>
-#   topics:
-#     - Widget zoology
-#     - Properties 
+- date: F 11/28
+  lecturer:
+  title: >
+    <strong>Qt Widgets I</strong>
+  video: 
+  notes: widgets1
+  readings:
+    - <a href="https://doc.qt.io/qtcreator/creator-help.html">Using help mode</a>
+    - <a href="https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1900827-utilisez-les-widgets">French Tutorial </a>
+    - <a href="https://zetcode.com/gui/qt5/widgets/"> ZetCode Tutorial </a>
+    - <a href="https://www.pythonguis.com/tutorials/pyqt-basic-widgets/"> Basic Widgets</a> (with PyQt)
+  topics:
 
-#   homework:
-#     Chrono.
+    -  Widget zoology
+    -  Reading the documentation
+    - Properties 
+    - Input Widgets
+    
+
+  # homework:
 
 # - date: M 10/25
 #   lecturer:

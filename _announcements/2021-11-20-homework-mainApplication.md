@@ -19,11 +19,13 @@ You should write a report on the following concepts:
     - Select Row
     - Select Col
     - Delete cell content.
-4. Share your experience in creating the second application using the
+4. Add the code for reading a **Csv** file in your spreadsheet.
+5. Add the **actions** to show the most **five** recent files.
+6. Share your experience in creating the second application using the
    **designer**.
 
 
-> The due date for this homework is Sunday 04/12/2021  at 20:00
+> The due date for this homework is Sunday 19/12/2021  at 20:00
 
 
 > Happy coding!! 
