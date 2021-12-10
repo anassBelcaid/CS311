@@ -171,6 +171,27 @@ Let's practice this containter, to create the following view for:
 
 ### Table Widgets
 
+This will be, a short section, as you already used widget in your
+**spreadsheet** project.
+
+
+The problem of these widgets, is that the should manage their own contents. Let
+Imagine for example, that we want to show the content of a folder. This is
+perfect scenario for a **QTreeWidget** but the creation of the **hierarchy**
+will be cumborsume.
+
+<div class="center">
+  <img src=" {{ site.url }}{{ site.baseurl }}/assets/img/lecture9/dirview-example.png" width="500">
+  <div class="figcaption">
+  Directory Hierarchy using a QTreeWidget
+  </div>
+</div>
+
+
+In this case, using an **MVC** pattern will really help.
+
+----
+
 ## MVC Model
 
 ### Definition
