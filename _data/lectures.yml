@@ -172,22 +172,26 @@
 
   # homework:
 
-# - date: M 10/25
-#   lecturer:
-#   title: >
-#     <strong>Qt Applications</strong>
-#   slides: 
-#   video: 
-#   notes:
-#   readings:
-#     - <a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S & B Textbook</a>, Ch3, Ch4
-#   topics:
-#     - Actions
-#     - Menus
-#     - Qt Resources
+- date: M 10/25
+  lecturer:
+  title: >
+    <strong>Containers and the MVC Model</strong>
+  slides: 
+  video: 
+  notes: widgets2
+  readings:
+    - <a href="https://doc.qt.io/archives/qt-4.8/model-view-programming.html"> The Model view paradigm </a>
+    - <a href="https://zetcode.com/gui/qt5/widgets2/"> ZetCode simple survey </a>
+    - <a href="https://www.bogotobogo.com/Qt/Qt5_QListView_QStringListModel_ModelView_MVC.php"> QListView </a>
+    - <a href="http://tvaira.free.fr/dev/qt/qt-modelview.pdf" > MVC French Tutorial </a>
+  topics:
+    - Model  views
+    - Containers
+    - Item views 
+    - MVC
 
-#   homework:
-#     Spreadsheet
+  homework:
+    Todo App
 
 # - date: W 11/01
 #   lecturer:

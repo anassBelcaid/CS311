@@ -6,6 +6,7 @@ date: 2021/28/11
 
 lecturers:
   - name:  Anass Belcaid
+
 permalink: /lectures/widgets1/
 ---
 
@@ -336,6 +337,7 @@ to increase.
 This example is taken from the [Qt archive](https://doc.qt.io/archives/qt-5.5/qtwidgets-widgets-sliders-example.html), if you want to complete the full details.
 
 ----
+
 
 
 
