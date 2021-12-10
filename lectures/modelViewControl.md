@@ -43,6 +43,11 @@ little complicated. We will only stratch the surface with those models.
 
 ## Items Based Widgets
 
+First we will presnt the **item based** containers. Those widgets controls
+themselves their contents.
+
+### List Widgets
+
 A [QListWidget](https://doc.qt.io/qt-5/qlistwidget.html#details) is a widget
 that provides  an **item-based** list widget. As the name suggests,  those widgets could be anything
 that inherits from the [QListWidgetItem](https://doc.qt.io/qt-5/qlistwidgetitem.html) class.
@@ -84,9 +89,85 @@ items:
    of the name of the **clicked** item.
 3. Modify your widget to modify the clicked item **background** to `red`.
 
-### List Widgets
-
 ### Tree Widgets
+
+A [TreeWidget](https://doc.qt.io/qt-5/qtreewidget.html) is container to present
+items as a [Tree](https://en.wikipedia.org/wiki/Tree_(data_structure)). 
+
+<div class="center">
+  <img src=" {{ site.url }}{{ site.baseurl }}/assets/img/lecture9/tree_images.png" width="300">
+  <div class="figcaption">
+  Representation of a simple tree.
+  </div>
+</div>
+
+We will cover this structure **in detail** in next course. But for now, we will
+remember the following points:
+
+- A Tree Node has a value and a set of children.
+- The top down node of the tree is called **root**.
+
+
+For our Qt class, each item is a member of the class [QTreeWidgetItem](https://doc.qt.io/qt-5/qtreewidgetitem.html).
+
+Here are a set of intersting functions for our class:
+
+- `addTopLevelItem(QTreeWidgetItem *item)`: to add a node a top level of the
+tree.
+
+- `columnCount`: property to return the number of columns.
+
+For a Item you can add a single or multiple children using one of the following
+methods:
+
+- `addChild(QTreeWidgetItem *item)`: to add a single item
+- `addChildren(QList<QTreeWidgetItem *>)`: to add multiple children at the same
+time.
+
+
+Let's practice this containter, to create the following view for:
+
+<div class="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture9/tree3.png">
+  <div class="figcaption">
+  Example of a tree that we should construct.
+  </div>
+</div>
+
+
+1. Create a Qt project, and inherits from the **QWidget** class.
+
+2. Add a **QTreeWidget** as a central component:
+
+    <div class="center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture9/QTreeWidget_ui.png">
+      <div class="figcaption">
+      Illustration of the ui for our class.
+      </div>
+    </div>
+
+3. In the constructor **ten** items for each number.
+    - In order to create an item, we use the following syntax:
+    ```cpp
+    auto one = new QTreeWidgetItem({"1"});
+    auto two = new QTreeWidgetItem({"2"});
+    ...
+    ```
+4. Set up the **root** node:
+    ```cpp
+    ui->treeWidget->addTopLevelItem(one);
+    ```
+5. Finally finish the structure of the tree by setting up the children:
+
+    ```cpp
+    // Add two as a child of one
+    one->addChild(two);
+    one->addChild(three);
+
+    // adding four and five as children
+    two->addChildren({five, six});
+    ...
+    ```
 
 ### Table Widgets
 
