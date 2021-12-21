@@ -191,7 +191,8 @@
     - MVC
 
   homework:
-    Todo App
+    # - <a href="https://anassbelcaid.github.io/CS311/spreadsheet/"> SpreadSheet</a>
+    - <a href="/todoapp/"> Todo App</a>
 
 # - date: W 11/01
 #   lecturer:
