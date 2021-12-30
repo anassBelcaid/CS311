@@ -53,7 +53,7 @@ your online **report** where you will put all the documentation for your steps.
 		<ul>
 		<li> Badr Benzemroun </li>
 		<li> Elias Lakhmiri </li>
-		<li> Rachi Sakassa </li>
+		<li> Rachid Sakassa </li>
 		</ul>
 		</td>
 		<td>Cyber security</td>
@@ -62,6 +62,25 @@ your online **report** where you will put all the documentation for your steps.
 		<a href="www.google.com">
 		<img class="fit-picture"
      src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+<!-- comment -->
+	<tr>
+		<td>
+		<ul>
+		<li> Wafa Harir </li>
+		<li> Khadija Fahem </li>
+		</ul>
+		</td>
+		<td>Cyber security</td>
+		<td> Snake Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/snake_game.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
