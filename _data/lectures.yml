@@ -193,19 +193,25 @@
   homework:
     - <a href="https://anassbelcaid.github.io/CS311/todoapp/"> ToDo Application</a>
 
-# - date: W 11/01
-#   lecturer:
-#   title: >
-#     <strong>Painting</strong>
-#   slides: 
-#   video: 
-#   notes:
-#   readings:
-#     - <a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S & B Textbook</a>, Ch3, Ch4, Ch5
-#   topics:
-#     - drawing objects
+- date: W 01/05
+  lecturer:
+  title: >
+    <strong>QPainter</strong>
+  slides: 
+  video: 
+  notes: painting
+  readings:
+    - <b> BS Chapter 8 </b>
+    - <a href="https://doc.qt.io/qt-5/qpainter.html" target="_blank"> QPainter </a>
+    - <a href="https://zetcode.com/gui/qt5/painting/"> ZetCode Tutorial </a>
+    - <a href="https://qt.developpez.com/doc/4.7/qpainter/"> French Tutorial</a>
 
--
+  topics:
+    - drawing objects
+    - Shape transformation
+    - Pens and Bruches
+
+- 
 # - date: F 09/20
 #   lecturer:
 #   title: >
