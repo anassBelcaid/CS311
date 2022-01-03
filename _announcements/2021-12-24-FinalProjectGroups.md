@@ -18,6 +18,9 @@ a simple **snapshot** for the **anticipated** product. This will also serve as a
 your online **report** where you will put all the documentation for your steps.
 
 
+> The due date for the final project is the **06/02/2021**.
+
+
 ## Group list
 
 <center>
@@ -81,6 +84,43 @@ your online **report** where you will put all the documentation for your steps.
 		<a href="www.google.com">
 		<img class="fit-picture"
      src="{{ site.url }}{{ site.baseurl }}/assets/img/snake_game.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Fatima-Ezzahra Kharbouch </li>
+		<li> Souha Hmamed </li>
+		</ul>
+		</td>
+		<td>Cyber security</td>
+		<td> 2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Saif-allah Nazihe </li>
+		</ul>
+		</td>
+		<td>Cyber security</td>
+		<td> Sudoko Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/Sudoku00.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
