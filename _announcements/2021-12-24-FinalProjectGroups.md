@@ -126,6 +126,44 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Hafsa Belbaz </li>
+		<li> Chaimaa Legdour </li>
+		</ul>
+		</td>
+		<td>Cyber security</td>
+		<td> Tetris Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/tetrix.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>Imane El Omary </li>
+		<li> EL Kassimi Manal </li>
+		</ul>
+		</td>
+		<td>Artificial Intelligence</td>
+		<td> Chess Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/chess.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
