@@ -164,6 +164,62 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Farah Abakhouch </li>
+		<li> Mohammed Damour </li>
+		</ul>
+		</td>
+		<td> Cyber Security</td>
+		<td> Snake Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/snake_game.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Nizar  EL Mouaquit </li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence</td>
+		<td> Pong Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/attari_01.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Youssef Ibourk</li>
+		<li> Manal EZ-Zaher </li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence</td>
+		<td> Flappy Bird Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/flappy_bird.jpg"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
