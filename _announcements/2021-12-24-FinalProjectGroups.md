@@ -220,6 +220,25 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Khadija Bayoud</li>
+		<li> Kaoutar Lakdim </li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence</td>
+		<td> Kakuro Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/kakuro.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
