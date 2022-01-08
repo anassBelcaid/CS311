@@ -239,6 +239,62 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Yassine Squalli Houssaini</li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence</td>
+		<td> Sudoko Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/Sudoku00.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Ayoub Hssain </li>
+		<li> Achraf Rachid </li>
+		<li> Achraf Berriane </li>
+		</ul>
+		</td>
+		<td> Robotics </td>
+		<td> Hotel Management system</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/hotel_reservation.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Oumayma El Bakkali </li>
+		</ul>
+		</td>
+		<td> Web and Mobile </td>
+		<td> Paint Application</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/paint_application.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
