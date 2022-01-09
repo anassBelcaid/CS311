@@ -411,6 +411,251 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>  Oumaima Eddouks  </li>
+		<li>  Salima Eddouks </li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence  </td>
+		<td>  Chess</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/chess.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>  Imane Diouri  </li>
+		</ul>
+		</td>
+		<td> Robotics   </td>
+		<td> 2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>  Yahia Benchdidi  </li>
+		<li>  Hamza  Es-Samlaly  </li>
+		</ul>
+		</td>
+		<td> Cyber Security   </td>
+		<td> Youtube Download manager</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/youtube-dl.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Amal Lamini </li>
+		<li> Fatima Ezzahra Seffari </li>
+		</ul>
+		</td>
+		<td> Web Mobile   </td>
+		<td> 2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Aymane Baddou</li>
+		<li> Nouhaila Hafidi </li>
+		</ul>
+		</td>
+		<td> Robotics  </td>
+		<td> 2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Hassana Zenkouar</li>
+		<li> Oumayma Moussaoui </li>
+		<li> Mouad Ouhasni </li>
+		</ul>
+		</td>
+		<td> Robotics  </td>
+		<td>Brick Ball</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/brick_ball.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Oussama Aziz </li>
+		<li> Ilyas Ait El Kadi </li>
+		</ul>
+		</td>
+		<td> Cyber Security </td>
+		<td> 2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Hicham Kartit </li>
+		</ul>
+		</td>
+		<td> Cyber Security </td>
+		<td> Tank Trouble</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/tank_game.jpg"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>Zahra Tahifa</li>
+		<li> Ghita Chahdi</li>
+		</ul>
+		</td>
+		<td> Aritificial Intelligence </td>
+		<td> Flappy Bird</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/flappy_bird.jpg"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Asmae Tnani </li>
+		<li> Aya Benlahbib </li>
+		</ul>
+		</td>
+		<td> Aritificial Intelligence </td>
+		<td> 2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Anas Belmssid</li>
+		<li> Monsef Berjaoui </li>
+		</ul>
+		</td>
+		<td> Aritificial Intelligence </td>
+		<td>  Hex Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/hex_game.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Souhaila Ounar</li>
+		</ul>
+		</td>
+		<td> Web Mobile  </td>
+		<td>  Country Portal</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/missing.jpg"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Rkia El Idrissi </li>
+		<li> Oum Kaltoume Bounoua </li>
+		</ul>
+		</td>
+		<td> Web Mobile  </td>
+		<td> 2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
