@@ -392,6 +392,25 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>  Assia Jaroui  </li>
+		<li> Olaya Latoubi </li>
+		</ul>
+		</td>
+		<td> Big Data  </td>
+		<td>  Car Dashboard</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/dashboard.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
