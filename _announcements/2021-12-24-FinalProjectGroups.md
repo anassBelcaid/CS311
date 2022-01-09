@@ -295,6 +295,65 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Mouad Nechdad </li>
+		<li> Meriem Badaoui </li>
+		<li> Salah Bouzidi </li>
+		</ul>
+		</td>
+		<td> Aritificial Intelligence </td>
+		<td> Tic Toc game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/tic_toc.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Chaimae Biyaye  </li>
+		<li> Irkam Belmadani </li>
+		</ul>
+		</td>
+		<td> Aritificial Intelligence </td>
+		<td> Clock Application </td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/alarm_app.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>  Kenza  Youssi  </li>
+		<li>  Khaoula Mzoudi </li>
+		<li>  Nour Elhouda Darbal </li>
+		</ul>
+		</td>
+		<td> Cyber Security  </td>
+		<td> Puzzle Game </td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/puzzle_game.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
