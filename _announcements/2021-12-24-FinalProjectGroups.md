@@ -354,6 +354,44 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>  Chama  Essaoiuad  </li>
+		<li>  Ilham Soufi </li>
+		</ul>
+		</td>
+		<td> Robotics  </td>
+		<td> Puzzle Game </td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/puzzle_game.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>  Khaoula Oularbi  </li>
+		<li>  Hatim Derkaoui </li>
+		</ul>
+		</td>
+		<td> Big Data  </td>
+		<td> Online MVC for a class </td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/moodle.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
