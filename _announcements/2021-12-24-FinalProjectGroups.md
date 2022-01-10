@@ -656,6 +656,193 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Mouad Oujabour </li>
+		<li> Imade Eddine Naciri </li>
+		</ul>
+		</td>
+		<td> Robotics  </td>
+		<td>  Fast Food Portal</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/fast_food.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Salma Benizza </li>
+		<li> Nada Aqmoune El Otmani </li>
+		</ul>
+		</td>
+		<td> Web Mobile  </td>
+		<td>  Hangman</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/hungman.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Imane Ouada </li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence  </td>
+		<td>  Sudoko</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/Sudoku00.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Anass Elobbi </li>
+		<li> Abdelatti errokhsy </li>
+		</ul>
+		</td>
+		<td> Cyber Security  </td>
+		<td>  Pacman</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/pacman.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Zakaria El Ofir </li>
+		</ul>
+		</td>
+		<td> Cyber Security  </td>
+		<td>  Thank Battle</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/thank_battle.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Imane Bousekraoui </li>
+		<li> Asmaa Bousekraoui </li>
+		</ul>
+		</td>
+		<td> Web Mobile </td>
+		<td>  2048 Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> WOUROUGOU Maako Ravelle Cedric </li>
+		<li> MILLOGO Gilles Arnaud </li>
+		<li> MIHINDOU Jessy Gervais</li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence </td>
+		<td>  Sudoko</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/Sudoku00.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> GUENDOULI Abdellah </li>
+		</ul>
+		</td>
+		<td> Web Mobile </td>
+		<td>Automotive</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/missing.jpg"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Hamza Taimzaiti </li>
+		</ul>
+		</td>
+		<td> Cyber Security   </td>
+		<td> Tetris Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/tetrix.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Ali Barazzouk</li>
+		<li> Youssef Bouslama</li>
+		</ul>
+		</td>
+		<td> Chess  </td>
+		<td> Tetris Game</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/chess.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
