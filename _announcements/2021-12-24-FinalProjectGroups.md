@@ -832,12 +832,68 @@ your online **report** where you will put all the documentation for your steps.
 		<li> Youssef Bouslama</li>
 		</ul>
 		</td>
-		<td> Chess  </td>
+		<td> Web Mobile  </td>
 		<td> Tetris Game</td>
 		<td> 
 		<a href="www.google.com">
 		<img class="fit-picture"
      src="{{ site.url }}{{ site.baseurl }}/assets/img/chess.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Med Amine Hammouda</li>
+		</ul>
+		</td>
+		<td>  Aritificial Ingelligence </td>
+		<td> Sky War</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/sky_war.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Yassine Hachimi</li>
+		</ul>
+		</td>
+		<td>  Cyber Security </td>
+		<td> Encryption Interface</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/encryption.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Firdawse Guerbouzi</li>
+		<li> Mohammed Ali Cheddad</li>
+		<li> Zakaria Zaoui</li>
+		</ul>
+		</td>
+		<td>  Cyber Security </td>
+		<td> Multiple Game Platform</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/missing.jpg"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
