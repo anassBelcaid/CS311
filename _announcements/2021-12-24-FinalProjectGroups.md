@@ -941,7 +941,7 @@ your online **report** where you will put all the documentation for your steps.
 	<tr>
 		<td>
 		<ul>
-		<li> Yassine Bougarne</li>
+		<li> Yassine Bouargane</li>
 		<li> Ilias Boujakhrout</li>
 		</ul>
 		</td>
@@ -989,6 +989,24 @@ your online **report** where you will put all the documentation for your steps.
 		<a href="www.google.com">
 		<img class="fit-picture"
      src="{{ site.url }}{{ site.baseurl }}/assets/img/puzzle_game.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Anas  El Harrari</li>
+		</ul>
+		</td>
+		<td> Artificial Intelligence</td>
+		<td> U-Racing</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/u_racing.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
