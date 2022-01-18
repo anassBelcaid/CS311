@@ -646,11 +646,11 @@ your online **report** where you will put all the documentation for your steps.
 		</ul>
 		</td>
 		<td> Web Mobile  </td>
-		<td> 2048 Game</td>
+		<td> Puzzle Game</td>
 		<td> 
 		<a href="www.google.com">
 		<img class="fit-picture"
-     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/puzzle_game.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
@@ -1007,6 +1007,26 @@ your online **report** where you will put all the documentation for your steps.
 		<a href="www.google.com">
 		<img class="fit-picture"
      src="{{ site.url }}{{ site.baseurl }}/assets/img/u_racing.png"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Said El Ouardi</li>
+		<li> Adil Eraad</li>
+		<li> Zined ElRhazouani</li>
+		</ul>
+		</td>
+		<td> Cyber Security</td>
+		<td> Vaccination</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/covid.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
