@@ -1032,6 +1032,25 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li> Salma Bakloul</li>
+		<li> Hanae Aqboub</li>
+		</ul>
+		</td>
+		<td>  Robotics</td>
+		<td> Music Player / Pacman</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/phonon_player.jpg"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
