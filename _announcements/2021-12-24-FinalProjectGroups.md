@@ -401,11 +401,11 @@ your online **report** where you will put all the documentation for your steps.
 		</ul>
 		</td>
 		<td> Big Data  </td>
-		<td>  Car Dashboard</td>
+		<td>  2048 Game</td>
 		<td> 
 		<a href="www.google.com">
 		<img class="fit-picture"
-     src="{{ site.url }}{{ site.baseurl }}/assets/img/dashboard.png"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
