@@ -173,11 +173,11 @@ your online **report** where you will put all the documentation for your steps.
 		</ul>
 		</td>
 		<td> Cyber Security</td>
-		<td> Snake Game</td>
+		<td> Chess Game</td>
 		<td> 
 		<a href="www.google.com">
 		<img class="fit-picture"
-     src="{{ site.url }}{{ site.baseurl }}/assets/img/snake_game.png"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/chess.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
