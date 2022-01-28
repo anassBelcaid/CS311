@@ -1069,6 +1069,25 @@ your online **report** where you will put all the documentation for your steps.
      </a>
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<ul>
+		<li>Younes Shimi</li>
+		<li>Imane El Boukili</li>
+		</ul>
+		</td>
+		<td> Web mobile</td>
+		<td> Coffe Machine</td>
+		<td> 
+		<a href="www.google.com">
+		<img class="fit-picture"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/missing.jpg"
+     width="150" height="150"
+     alt="Grapefruit slice atop a pile of other slices">
+     </a>
+		</td>
+	</tr>
 	</tbody>
 </table>
 
