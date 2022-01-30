@@ -137,6 +137,7 @@ your online **report** where you will put all the documentation for your steps.
 		<td>Cyber security</td>
 		<td> Tetris Game</td>
 		<td> 
+<!-- https://github.com/Chaima-LGDOUR/finalProject -->
 		<a href="www.google.com">
 		<img class="fit-picture"
      src="{{ site.url }}{{ site.baseurl }}/assets/img/tetrix.png"
@@ -457,11 +458,11 @@ your online **report** where you will put all the documentation for your steps.
 		</ul>
 		</td>
 		<td> Cyber Security   </td>
-		<td> Youtube Download manager</td>
+		<td> Digital Clock</td>
 		<td> 
 		<a href="www.google.com">
 		<img class="fit-picture"
-     src="{{ site.url }}{{ site.baseurl }}/assets/img/youtube-dl.png"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/missing.jpg"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
@@ -571,11 +572,11 @@ your online **report** where you will put all the documentation for your steps.
 		</ul>
 		</td>
 		<td> Aritificial Intelligence </td>
-		<td> Flappy Bird</td>
+		<td> 2048 Game</td>
 		<td> 
 		<a href="www.google.com">
 		<img class="fit-picture"
-     src="{{ site.url }}{{ site.baseurl }}/assets/img/flappy_bird.jpg"
+     src="{{ site.url }}{{ site.baseurl }}/assets/img/lecture1/game_2048.png"
      width="150" height="150"
      alt="Grapefruit slice atop a pile of other slices">
      </a>
